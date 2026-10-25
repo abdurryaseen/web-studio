@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grant Street Websites — Websites that make people stop scrolling.</title>
+<meta name="description" content="Grant Street Websites designs and builds high-end websites for brands that want to look like they mean it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <a href="#top" class="nav__logo">Grant Street</a>
+  <nav class="nav__links">
+    <a href="#work">The work</a>
+    <a href="#pricing">The packages</a>
+    <a href="#contact" class="nav__cta">Start a project ↗</a>
+  </nav>
+  <button class="nav__toggle" aria-label="Toggle menu">☰</button>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="hero__eyebrow">01 — Grant Street Websites</p>
+    <h1 class="hero__title">Don't just launch a website. <em>Launch a reason to stop scrolling.</em></h1>
+    <p class="hero__sub">We design and build websites for brands that want to look like they mean it — fast, clean, and built to convert, not just to exist.</p>
+    <div class="hero__actions">
+      <a href="#pricing" class="btn btn--primary">See packages ↗</a>
+      <a href="#work" class="btn btn--ghost">View the work</a>
+    </div>
+    <div class="hero__frame">
+      <div class="hero__frame-inner">
+        <span class="hero__frame-label">Live preview — Grant Street build system</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <p class="section__eyebrow">02 — Selected work</p>
+    <h2 class="section__title">A standard, not a template.</h2>
+    <div class="work__grid">
+      <article class="work__card">
+        <div class="work__thumb work__thumb--a"></div>
+        <h3>Northbound Coffee Co.</h3>
+        <p>E-commerce rebuild for a specialty roaster — 3.2x checkout conversion in the first 60 days.</p>
+      </article>
+      <article class="work__card">
+        <div class="work__thumb work__thumb--b"></div>
+        <h3>Ferro & Oak Studio</h3>
+        <p>Portfolio site for a furniture studio, built around motion and material texture.</p>
+      </article>
+      <article class="work__card">
+        <div class="work__thumb work__thumb--c"></div>
+        <h3>Lumen Legal Group</h3>
+        <p>Lead-gen site for a boutique law firm — clean, fast, and built to rank.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <p class="section__eyebrow">03 — Packages</p>
+    <h2 class="section__title">Pick your path.</h2>
+    <div class="pricing__grid">
+
+      <article class="plan">
+        <h3 class="plan__name">The Launch</h3>
+        <p class="plan__price">$499</p>
+        <p class="plan__desc">A sharp, single-page site to get a new business or idea live fast.</p>
+        <ul class="plan__list">
+          <li>1-page custom design</li>
+          <li>Mobile-first build</li>
+          <li>Basic SEO setup</li>
+          <li>3-day turnaround</li>
+        </ul>
+        <a href="#contact" class="btn btn--ghost btn--block">Start here ↗</a>
+      </article>
+
+      <article class="plan plan--featured">
+        <p class="plan__badge">Most popular</p>
+        <h3 class="plan__name">The Build</h3>
+        <p class="plan__price">$1,500</p>
+        <p class="plan__desc">A full multi-page site with the polish and motion to match a real brand.</p>
+        <ul class="plan__list">
+          <li>Up to 5 pages, fully custom</li>
+          <li>Motion & micro-interactions</li>
+          <li>On-page SEO + analytics</li>
+          <li>2 revision rounds</li>
+          <li>7–10 day turnaround</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary btn--block">Choose The Build ↗</a>
+      </article>
+
+      <article class="plan">
+        <h3 class="plan__name">The Platform</h3>
+        <p class="plan__price">$3,500+</p>
+        <p class="plan__desc">For brands that need e-commerce, bookings, or custom systems.</p>
+        <ul class="plan__list">
+          <li>Unlimited pages</li>
+          <li>Custom integrations &amp; CMS</li>
+          <li>E-commerce / booking flows</li>
+          <li>Ongoing support option</li>
+        </ul>
+        <a href="#contact" class="btn btn--ghost btn--block">Talk to us ↗</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <p class="section__eyebrow">04 — Let's build</p>
+    <h2 class="section__title">Tell us what you're building.</h2>
+    <form class="contact__form">
+      <div class="contact__row">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+      </div>
+      <input type="text" name="company" placeholder="Company / project name">
+      <textarea name="message" placeholder="What are we building?" rows="4" required></textarea>
+      <button type="submit" class="btn btn--primary btn--block">Send it ↗</button>
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Grant Street Websites. All rights reserved.</p>
+  <div class="footer__links">
+    <a href="#work">Work</a>
+    <a href="#pricing">Packages</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
